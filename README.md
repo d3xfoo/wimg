@@ -21,34 +21,6 @@ go build -o wimg cmd/wimg/main.go
 sudo mv wimg /usr/local/bin/
 ```
 
-### Using Go Install
-
-```bash
-go install github.com/d3xfoo/wimg/cmd/wimg@latest
-```
-
-### Package Managers
-
-#### Arch Linux (AUR)
-```bash
-yay -S wimg
-```
-
-#### Homebrew (macOS)
-```bash
-brew install d3xfoo/tap/wimg
-```
-
-### Quick Install (curl)
-
-To quickly install `wimg` on Linux or macOS, you can use the following command:
-
-```bash
-curl -sSL https://raw.githubusercontent.com/d3xfoo/wimg/main/scripts/install.sh | bash
-```
-
-This script will automatically detect your OS and architecture, download the latest binary, and place it in `/usr/local/bin` (or the current directory on Windows).
-
 ## Usage
 
 ### Basic Commands
